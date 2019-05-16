@@ -620,3 +620,31 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.boxs {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  height: 100px;
+}
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 30px;
+}
+
+ul li h2 a{
+  color: rebeccapurple;
+  text-decoration: none;
+}
+
+p {
+  text-align: justify;
+}
+
+Img {
+  display: block;
+  margin: auto;
+}
